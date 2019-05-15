@@ -1,0 +1,14 @@
+What MVC Stand for;--
+MVC is an acronym that stands for Model / View / Controller. MVC is a programming architecture that aids developers with separating different components of an application.
+
+Illustration of MVC:_
+The given png with this zip name "mvcArchitecture.png"
+
+Benifits of MVC:-
+-Substitutable user interface : 
+-User interface components: 
+-Multiple simultaneous views of the same model
+-Synchronized views
+-Easier user interface changes
+-Easier testing
+

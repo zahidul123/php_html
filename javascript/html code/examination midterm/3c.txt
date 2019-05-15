@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaSript</title>
+	<script type="text/javascript">
+	function change() {
+		document.getElementById("demo").innerHTML = "Paragraph Changed.";
+	}
+</script>
+</head>
+<body>
+	<p id="demo">A Paragraph</p>
+	<button type="button" onclick="change()">Change Value</button>
+</body>
+</html>

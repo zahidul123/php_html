@@ -1,0 +1,8 @@
+What is a Cookie?
+A cookie is a small file that the server embeds on the user's computer.
+
+How we creat Cookie?
+
+A cookie is created with the setcookie() function.
+syntax:
+setcookie(name, value, expire);

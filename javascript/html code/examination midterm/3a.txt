@@ -1,0 +1,9 @@
+Are Java and JavaScript the Same? 
+-NO!
+-Java and JavaScript are two completely different languages in both concept and design!
+
+Different between JavaScrip and PHP:--
+--JS is more object-oriented
+--JS focuses on user interfaces and interacting with a document; PHP is geared toward HTML output and file/form processing
+--JS code runs on the client's browser; PHP code runs on the web server
+

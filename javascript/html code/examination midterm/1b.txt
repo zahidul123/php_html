@@ -1,0 +1,12 @@
+The default error handling in PHP is very simple. An error message with filename, line number and a message describing the error is sent to the browser.
+
+
+Lets explain there new keyword related to exceptions.
+
+Try - A function using an exception should be in a "try" block. If the exception does not trigger, the code will continue as normal. However if the exception triggers, an exception is "thrown".
+
+Throw - This is how you trigger an exception. Each "throw" must have at least one "catch".
+
+Catch - A "catch" block retrieves an exception and creates an object containing the exception information.
+
+Slide 09_php-II(page-40)

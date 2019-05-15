@@ -1,0 +1,4 @@
+Why php is loosly language:--
+
+I. We did not have to tell PHP which data type the variable is. 
+II.PHP automatically converts the variable to the correct data type, depending on its value.we need not to declare the variable type.

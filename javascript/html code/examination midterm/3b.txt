@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaSript</title>
+	<script type="text/javascript">
+	var firstNumber, secondNumber, number1, number2, sum;
+
+	firstNumber = window.prompt("Enter first integer", "0");
+	secondNumber = window.prompt("Enter Second integer", "0");
+
+	number1 = parseInt(firstNumber);
+	number2 = parseInt(secondNumber);
+
+	sum = number1 + number2;
+
+	document.writeln("<h1>The sum is "+ sum +"</h1>");
+</script>
+</head>
+<body>
+	<p>Refresh the page to run this sript again </p>
+</body>
+</html>

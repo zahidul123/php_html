@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<!-- Validation with Javascript -->
+        <script type='text/javascript'>
+            function latterCheck(input) {
+                var regrex = /[^a-z ]/gi;
+                input.value = input.value.replace(regrex, "");
+            }
+            function numberCheck(input) {
+                var regrex = /[^0-9]/gi;
+                input.value = input.value.replace(regrex, "");
+            }
+        </script>
+</head>
+<body>
+	<form action="" method="post">
+		<table>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="fname" onkeyup="latterCheck(this)"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" name="lname" onkeyup="latterCheck(this)"></td>
+			</tr>
+			<tr>
+				<td>Age:</td>
+				<td><input type="text" name="fname" onkeyup="numberCheck(this)"></td>
+			</tr>
+			<tr>
+				<td>Contact:</td>
+				<td><input type="text" name="fname" onkeyup="numberCheck(this)"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+
+Data base connection ----
+
+<?php
+
+    protected $connection;
+
+    public function __construct() {
+        $host_name = 'localhost';
+        $user_name = 'root';
+        $password = '';
+        $db_name = 'myDB';
+        $this->connection = mysqli_connect($host_name, $user_name, $password, $db_name);
+
+        if (!$this->connection) {
+            die('Connection Fail' . mysqli_error($this->connection));
+        }
+    }
+
+?>

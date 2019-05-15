@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<title>table and from validation</title>
+	<style type="text/css">
+		.content{background:blue;padding: 20px;margin-left: 200px;margin-right: 200px}
+		.header{background:blue;margin-left: 100px;margin-right: 20px}
+		.middle{background: cyan;height:600px;margin-left: 200px;margin-right: 200px;}
+		#footer{background:blue;padding: 20px;margin-left: 200px;margin-right: 200px}
+	</style>
+</head>
+<body>
+	<section class="content">
+		<header class="header">
+			<h1>we are starting javascript fundamental </h1>
+		</header>
+	</section>
+	<div class="middle">
+		<script type="text/javascript">
+			function liveprog(){ 
+				var cont=confirm("do you want to go ");
+				if (cont!="") {
+			//user input by using prompt coommand 
+			var  name=prompt("please enter your name :");
+			if (name=="") {
+				alert("please fill this full site ");
+			}else{
+				document.write("name is "+name);
+			}
+		}else{
+			document.write("the form is null");
+		}
+		}
+		</script>
+		<button onclick="liveprog()">confirm</button>
+	</div>
+	<section id="footer">
+		<h1>This is end partof this site</h1>
+	</section>
+</body>
+</html>

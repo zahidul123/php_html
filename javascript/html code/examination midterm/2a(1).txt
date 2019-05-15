@@ -1,0 +1,18 @@
+Solution of question a :--
+
+Numaric array is the best solution for this situation.
+
+Briefly of each type of arrays:--
+
+In PHP, there are three kind of arrays:
+> Numeric array - An array with a numeric index 
+Example: Slide-09(page-20 or 21 your choice)
+
+> Associative array - An array where each ID key is associated with a value
+Example: Slide-09(page-24)
+
+> Multidimensional array - An array containing one or more arrays
+Example: Slide-09(page-26)
+
+
+

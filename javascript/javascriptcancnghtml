@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<title>this is change attribute</title>
+<body>
+ <img id="myImage" src="blbon.jpg" style="width: 100px"></img>
+ <button onclick="document.getElementById('myImage').src='blbon.JPG'">bulb off</button>
+ <button onclick="document.getElementById('myImage').src='blboff.JPG'">bulb on</button>
+</body>
+</html>
